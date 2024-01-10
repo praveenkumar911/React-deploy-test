@@ -542,7 +542,7 @@ router.post('/create-subgroup/:subgroupId', async (req, res) => {
 });
 
 router.post('/create-org-subgroup', async (req, res) => {
-  const  subgroupId  = "232";
+  const  subgroupId  = "251";
   const { name, description } = req.body;
 
   try {
