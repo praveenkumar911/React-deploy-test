@@ -6,7 +6,7 @@ const winston = require('winston');
 const { LogstashTransport } = require('winston-logstash-transport');
 
 mongoose.set('strictQuery', false);
-const mongoUrl = "mongodb://localhost:60/Badal-demo"//"mongodb+srv://Praveen:praveenkumar@badal.ohvetri.mongodb.net/";
+const mongoUrl = "mongodb://10.8.0.15:27017/Badal-demo"//"mongodb+srv://Praveen:praveenkumar@badal.ohvetri.mongodb.net/";
 app.use(express.json());
 app.use(cors());
 
